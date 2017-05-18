@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfluencerAlert", "InfluencerAlert\InfluencerAlert.csproj", "{D89A523C-995E-45AD-AEC1-DDB6EE28CFC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfluencerAlert.Api", "..\InfluencerAlert.Api\InfluencerAlert.Api.csproj", "{AC4C9858-6BC8-40F2-99D8-7A2C4FB6285A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D89A523C-995E-45AD-AEC1-DDB6EE28CFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89A523C-995E-45AD-AEC1-DDB6EE28CFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89A523C-995E-45AD-AEC1-DDB6EE28CFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4C9858-6BC8-40F2-99D8-7A2C4FB6285A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4C9858-6BC8-40F2-99D8-7A2C4FB6285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4C9858-6BC8-40F2-99D8-7A2C4FB6285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4C9858-6BC8-40F2-99D8-7A2C4FB6285A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
