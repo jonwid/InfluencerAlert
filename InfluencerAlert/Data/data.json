@@ -8,35 +8,45 @@
           "source": "youtube",
           "influencer": "Linda Hallberg",
           "followers": 120130,
-          "likes": 30000
+          "likes": 30000,
+          "views": 123,
+          "date": "2012-04-23T18:25:43.511Z"
         },
         {
           "url": "http://youtube.com",
           "source": "youtube",
           "influencer": "Linda Hallberg",
           "followers": 120130,
-          "likes": 30000
+          "likes": 30000,
+          "views": 123,
+          "date": "2012-04-23T18:25:43.511Z"
         },
         {
           "url": "http://youtube.com",
           "source": "youtube",
           "influencer": "Linda Hallberg",
           "followers": 120130,
-          "likes": 30000
+          "likes": 30000,
+          "views": 123,
+          "date": "2012-04-23T18:25:43.511Z"
         },
         {
           "url": "http://youtube.com",
           "source": "youtube",
           "influencer": "Linda Hallberg",
           "followers": 120130,
-          "likes": 30000
+          "likes": 30000,
+          "views": 123,
+          "date": "2012-04-23T18:25:43.511Z"
         },
         {
           "url": "http://youtube.com",
           "source": "youtube",
           "influencer": "Linda Hallberg",
           "followers": 120130,
-          "likes": 30000
+          "likes": 30000,
+          "views": 123,
+          "date": "2012-04-23T18:25:43.511Z"
         }
       ]
     },
@@ -45,7 +55,12 @@
       "posts": [
         {
           "url": "http://youtube.com",
-          "source": "youtube"
+          "source": "youtube",
+          "influencer": "Linda Hallberg",
+          "followers": 120130,
+          "likes": 30000,
+          "views": 123,
+          "date": "2012-04-23T18:25:43.511Z"
         }
       ]
     }

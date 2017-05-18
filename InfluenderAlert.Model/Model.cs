@@ -10,6 +10,8 @@ namespace InfluenderAlert.Model
         public string Influencer { get; set; }
         public int Followers { get; set; }
         public int Likes { get; set; }
+        public string Views { get; set; }
+        public DateTime Date { get; set; }
     }
 
     public class Product
