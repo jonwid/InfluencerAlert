@@ -19,7 +19,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\InfluencerAlert.Api\InfluencerAlert.Api.csproj" />
+    <ProjectReference Include="..\InfluencerAlert.Services\InfluencerAlert.Services.csproj" />
   </ItemGroup>
 
 </Project>

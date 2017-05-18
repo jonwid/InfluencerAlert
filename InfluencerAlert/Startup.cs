@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using InfluencerAlert.Services.Instagram;
+using InfluencerAlert.Services.Interfaces.Instagram;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using InstagramSettings = InfluencerAlert.Configuration.InstagramSettings;
 
 namespace InfluencerAlert
 {
@@ -29,6 +28,11 @@ namespace InfluencerAlert
         {
             // Add framework services.
             services.AddMvc();
+
+            // Added - Confirms that we have a home for our DemoSettings
+            services.Configure<InstagramSettings>(Configuration.GetSection("InstagramSettings"));
+
+            services.AddTransient<IHashTagService, HashTagService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
