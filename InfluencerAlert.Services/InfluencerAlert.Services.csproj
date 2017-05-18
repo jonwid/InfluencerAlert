@@ -12,4 +12,8 @@
     <Folder Include="Configuration\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InfluenderAlert.Model\InfluenderAlert.Model.csproj" />
+  </ItemGroup>
+
 </Project>

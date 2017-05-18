@@ -1,6 +1,16 @@
-﻿@{
+﻿
+@model InfluenderAlert.Model.Feed
+@{
     ViewData["Title"] = "Home Page";
 }
+
+<ul>
+    @foreach (var product in Model.Products)
+    {
+        <li>@product.Name</li>
+    }
+
+</ul>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">

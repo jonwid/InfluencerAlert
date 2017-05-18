@@ -1,4 +1,6 @@
-﻿using InfluencerAlert.Services.Instagram;
+﻿using InfluencerAlert.Services.Feed;
+using InfluencerAlert.Services.Instagram;
+using InfluencerAlert.Services.Interfaces;
 using InfluencerAlert.Services.Interfaces.Instagram;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,11 +30,14 @@ namespace InfluencerAlert
         {
             // Add framework services.
             services.AddMvc();
+            services.AddDistributedMemoryCache(); // Adds a default in-memory implementation of IDistributedCache
+            services.AddSession();
 
             // Added - Confirms that we have a home for our DemoSettings
             services.Configure<InstagramSettings>(Configuration.GetSection("InstagramSettings"));
 
             services.AddTransient<IHashTagService, HashTagService>();
+            services.AddTransient<IFeedService, FeedService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +57,8 @@ namespace InfluencerAlert
             }
 
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseMvc(routes =>
             {

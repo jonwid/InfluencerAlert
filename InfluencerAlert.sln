@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfluencerAlert", "Influenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfluencerAlert.Services", "InfluencerAlert.Services\InfluencerAlert.Services.csproj", "{310E4532-D8FE-4FA2-89D4-ADAA2E96E821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfluenderAlert.Model", "InfluenderAlert.Model\InfluenderAlert.Model.csproj", "{23BCDA9E-52E2-4CB1-B579-BA8AE5312CD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{310E4532-D8FE-4FA2-89D4-ADAA2E96E821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{310E4532-D8FE-4FA2-89D4-ADAA2E96E821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{310E4532-D8FE-4FA2-89D4-ADAA2E96E821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BCDA9E-52E2-4CB1-B579-BA8AE5312CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BCDA9E-52E2-4CB1-B579-BA8AE5312CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BCDA9E-52E2-4CB1-B579-BA8AE5312CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BCDA9E-52E2-4CB1-B579-BA8AE5312CD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

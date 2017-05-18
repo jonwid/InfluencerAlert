@@ -1,35 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using InfluencerAlert.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InfluencerAlert.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IFeedService _feedService;
+
+        public HomeController(IFeedService feedService)
+        {
+            _feedService = feedService;
+        }
+
         public IActionResult Index()
         {
-            return View();
+            var feed = _feedService.GetFeed();
+
+            return View(feed);
         }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View();
-        }
+        
     }
 }
