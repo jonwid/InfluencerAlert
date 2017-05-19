@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>@ViewData["Title"] - InfluencerAlert</title>
     <environment names="Development">
-        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     </environment>
     <environment names="Staging,Production">
-        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
         @*<link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />*@
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)

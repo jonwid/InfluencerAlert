@@ -12,6 +12,7 @@ namespace InfluenderAlert.Model
         public int Likes { get; set; }
         public string Views { get; set; }
         public DateTime Date { get; set; }
+        public string Image { get; set; }
     }
 
     public class Product
