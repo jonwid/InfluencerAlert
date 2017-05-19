@@ -20,15 +20,17 @@
     @foreach (var product in Model.Products)
     {
         <div class="table-row  name">
-            <div class="table-item long">@product.Name</div>
+            <div class="table-item long"><a class="link">@product.Name</a></div>
         </div>
         foreach (var post in product.Posts)
         {
 
             <div class="table-row">
              <div class="table-item long"></div>
-                <div class="table-item long">@post.Url</div>
-                <div class="table-item long"><img class="post-img" src="@post.Image"> @post.Influencer</div>
+
+                <div class="table-item long"><a class="link">@post.Url</a></div>
+                <div class="table-item long"><a class="link"><img class="post-img" src="@post.Image"> @post.Influencer</a></div>
+
                 <div class="table-item short">@post.Followers</div>
                 <div class="table-item short">@post.Likes</div>
                 <div class="table-item short">@post.Views</div>
