@@ -14,6 +14,7 @@ namespace InfluencerAlert.Services.Instagram
             var scopes = new List<OAuth.Scope>();
             scopes.Add(OAuth.Scope.Basic);
             scopes.Add(OAuth.Scope.Public_Content);
+
             // scopes.Add(InstaSharp.OAuth.Scope.Comments);
 
             var link = OAuth.AuthLink(config.OAuthUri + "authorize", config.ClientId, config.RedirectUri, scopes, OAuth.ResponseType.Code);
