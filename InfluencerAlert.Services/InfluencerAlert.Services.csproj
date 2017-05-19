@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="InstaSharp" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="1.1.2" />
   </ItemGroup>
 
   <ItemGroup>
