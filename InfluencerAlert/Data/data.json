@@ -1,67 +1,15 @@
 {
   "products": [
     {
-      "name": "Proof It! Waterproof Eye Shadow Primer",
-      "posts": [
-        {
-          "url": "http://youtube.com",
-          "source": "youtube",
-          "influencer": "Linda Hallberg",
-          "caption":  "Lorem ipsum.", 
-          "followers": 120130,
-          "likes": 30000,
-          "views": 123,
-          "date": "2012-04-23T18:25:43.511Z"
-        },
-        {
-          "url": "http://youtube.com",
-          "source": "youtube",
-          "influencer": "Linda Hallberg",
-          "caption": "Lorem ipsum.",
-          "followers": 120130,
-          "likes": 30000,
-          "views": 123,
-          "date": "2012-04-23T18:25:43.511Z"
-        },
-        {
-          "url": "http://youtube.com",
-          "source": "youtube",
-          "influencer": "Linda Hallberg",
-          "caption": "Lorem ipsum.",
-          "followers": 120130,
-          "likes": 30000,
-          "views": 123,
-          "date": "2012-04-23T18:25:43.511Z"
-        },
-        {
-          "url": "http://youtube.com",
-          "source": "youtube",
-          "influencer": "Linda Hallberg",
-          "caption": "Lorem ipsum.",
-          "followers": 120130,
-          "likes": 30000,
-          "views": 123,
-          "date": "2012-04-23T18:25:43.511Z"
-        },
-        {
-          "url": "http://youtube.com",
-          "source": "youtube",
-          "influencer": "Linda Hallberg",
-          "caption": "Lorem ipsum.",
-          "followers": 120130,
-          "likes": 30000,
-          "views": 123,
-          "date": "2012-04-23T18:25:43.511Z"
-        }
-      ]
-    },
-    {
       "name": "CERA CeraWand Curling Iron 19-32mm",
       "posts": [
         {
-          "url": "https://www.youtube.com/user/annicasblogg",
+          "headline": "Storytime: Min student",
+          "url": "https://www.youtube.com/watch?v=rmNx-psRo-E",
           "source": "youtube",
           "influencer": "Annica Englund",
+          "influencerurl": "https://www.youtube.com/user/annicasblogg",
+          "image": "https://i.ytimg.com/vi/uj7p-FObYw4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIZCGAE=&rs=AOn4CLANYkdp6inFrQCUPkNr_ycTBydGpw",
           "followers": 1208,
           "likes": 8000,
           "views": 300,
@@ -69,13 +17,16 @@
         }
       ]
     },
-        {
-      "name": "CERA CeraWand Curling Iron 19-32mm",
+    {
+      "name": "2000 Calorie Mascara Dramatic Volume",
       "posts": [
         {
-          "url": "https://www.youtube.com/user/annicasblogg",
+          "headline": "Träning och skönhetsevent",
+          "url": "https://www.youtube.com/watch?v=mBTIR0OYARc",
           "source": "youtube",
           "influencer": "Annica Englund",
+          "influencerurl": "https://www.youtube.com/user/annicasblogg",
+          "image": "https://i.ytimg.com/vi/tmir59HhD0E/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=67&sigh=wcAO50X_deE-7QQVsPbR3lbTSZ8",
           "followers": 1208,
           "likes": 50,
           "views": 100,
@@ -83,13 +34,15 @@
         }
       ]
     },
-        {
-      "name": "CERA CeraWand Curling Iron 19-32mm",
+    {
+      "name": "Colour Elixir Velvet Matte Lipstick",
       "posts": [
         {
+          "headline": "Lägger 100 lager mascara",
           "url": "https://www.youtube.com/channel/UCJKIi6ysvTD9gtrpiamJ6jw",
           "source": "youtube",
           "influencer": "Thomas Sekelius",
+          "image": "https://i.ytimg.com/vi/aDUce522pb0/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=67&sigh=aJo3lMwoLd4O4ZQJkb4YWdPUT5E",
           "followers": 503901,
           "likes": 200,
           "views": 1000,
