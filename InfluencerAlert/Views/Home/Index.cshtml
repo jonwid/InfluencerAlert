@@ -1,7 +1,7 @@
 ﻿
 @model InfluenderAlert.Model.Feed
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Influencer Alert";
 }
 
 
@@ -11,10 +11,10 @@
     <span class="head-item long">Products</span>
     <span class="head-item long">Posts</span>
     <span class="head-item long">Influencer</span>
-    <span class="head-item short">Followers</span>
+    <span class="head-item short">Followers <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
     <span class="head-item short">Likes</span>
     <span class="head-item short">Views</span>
-    <span class="head-item short">Date</span>
+    <span class="head-item short">Date <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
 </div>
 <div class="table-body">
     @foreach (var product in Model.Products)
@@ -27,7 +27,7 @@
 
             <div class="table-row">
                 <div class="table-item long">@post.Url</div>
-                <div class="table-item long">@post.Influencer</div>
+                <div class="table-item long"><img class="post-img" src=""> @post.Influencer</div>
                 <div class="table-item short">@post.Followers</div>
                 <div class="table-item short">@post.Likes</div>
                 <div class="table-item short">@post.Views</div>
@@ -36,10 +36,4 @@
         }
 
     }
-
-
-
-    <div class="table-row second"></div>
-    <div class="table-row"></div>
-    <div class="table-row second"></div>
 </div>
