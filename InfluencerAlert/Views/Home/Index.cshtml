@@ -11,15 +11,15 @@
     <span class="head-item long">Products</span>
     <span class="head-item long">Posts</span>
     <span class="head-item long">Influencer</span>
-    <span class="head-item short">Followers <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
+    <span class="head-item short">Followers</span>
     <span class="head-item short">Likes</span>
     <span class="head-item short">Views</span>
-    <span class="head-item short">Date <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
+    <span class="head-item short">Date</span></span>
 </div>
 <div class="table-body">
     @foreach (var product in Model.Products)
     {
-        <div class="table-row  name">
+        <div class="table-row name">
             <div class="table-item long"><a class="link">@product.Name</a></div>
         </div>
         foreach (var post in product.Posts)
@@ -27,9 +27,9 @@
 
             <div class="table-row">
              <div class="table-item long"></div>
-
-                <div class="table-item long"><a class="link">@post.Url</a></div>
-                <div class="table-item long"><a class="link"><img class="post-img" src="@post.Image"> @post.Influencer</a></div>
+ <div class="table-item medium-img"><img class="post-img" src="@post.Image"></div>
+                <div class="table-item medium"><a class="link">@post.Url</a></div>
+                <div class="table-item long"><a class="link">@post.Influencer</a></div>
 
                 <div class="table-item short">@post.Followers</div>
                 <div class="table-item short">@post.Likes</div>

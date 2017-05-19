@@ -100,6 +100,7 @@ h1 {
 .name{
     background: #f4f4f4;
     font-weight: bold;
+    width: 100%;
 }
 
 .table-item {
@@ -119,9 +120,17 @@ h1 {
     width: 10%;
 }
 
+.medium {
+    width: 10%;
+}
+
+.medium-img {
+padding-right:0;
+}
+
 .post-img {
     height: auto;
-    width: 30%;
+    width: 100%;
     vertical-align: text-top;
 }
 
@@ -133,8 +142,8 @@ h1 {
 
 .link {
      color: #6c6b6b;
-     opacity: 0.5;
 }
 .link:hover {
 text-decoration: underline;
+     opacity: 0.5;
 }
