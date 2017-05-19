@@ -2,7 +2,7 @@
     background-color: #f4f4f4;
     width: 100%;
     margin: 0;
-
+overflow: hidden;
 }
 
 main {
@@ -93,11 +93,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     background: #f4f4f4;
-    height: 70px;
     padding: 5px;
 }
 
-.table-row:nth-child(even){
+.name{
     background: #fcfbfb;
 }
 
@@ -105,9 +104,9 @@ h1 {
     color: #6c6b6b;
     font-size: 18px;
     font-family: "Brandon Grotesque", Arial;
-    width:;
     padding-right: 10px;
     padding-top: 5px;
+    word-break: break-word;
 }
 
 .long {
