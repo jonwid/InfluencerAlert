@@ -13,6 +13,7 @@ namespace InfluenderAlert.Model
         public string Views { get; set; }
         public DateTime Date { get; set; }
         public string Image { get; set; }
+        public string Headline { get; set; }
     }
 
     public class Product
