@@ -7,7 +7,7 @@ overflow: hidden;
 
 main {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1170px;
     display: flex;
     justify-content: row;
     margin: 0 auto;
@@ -118,6 +118,7 @@ h1 {
 
 .short {
     width: 10%;
+   
 }
 
 .medium {
